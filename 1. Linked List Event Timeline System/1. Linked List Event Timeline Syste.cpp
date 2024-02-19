@@ -3,7 +3,8 @@ Real-Life Scenario: Imagine a social media platform that allows users to post up
 The platform needs to display these events in the order they occurred, from the most recent back to the first post of the day. 
 A linked list is an ideal data structure for this, as it efficiently supports operations like adding a new event at the beginning (to represent the latest event) or browsing through the day's events.
 
-Data Structure Suitability: A linked list is perfect for the event timeline system because:
+Data Structure Suitability: 
+A linked list is perfect for the event timeline system because:
 
 It allows for constant time insertion at the beginning, making it efficient to add new events as they happen.
 It can easily accommodate a varying number of events without the need for resizing (unlike an array).
@@ -39,7 +40,7 @@ public:
         size++;
     }
 
-    // Function to display the timeline
+    /// Function to display the timeline
     void displayTimeline() {
         EventNode* temp = head;
         while (temp != nullptr) {
@@ -58,7 +59,7 @@ public:
     }
 };
 
-// Main function to demonstrate the EventTimeline class
+// Main function to demonstrate the EventTimeline class:
 int main() {
     EventTimeline myTimeline;
     myTimeline.addEvent("Liked a post");
