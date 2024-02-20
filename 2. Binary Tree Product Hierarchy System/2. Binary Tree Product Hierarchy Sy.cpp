@@ -1,11 +1,12 @@
-/*2. Binary Tree: Product Hierarchy System
-Real-Life Scenario: Consider an e-commerce platform that categorizes products into a hierarchy for easy navigation and management. Each category can have subcategories, forming a tree structure. For example, "Electronics" might branch into "Computers" and "Smartphones," each of which could have further subdivisions like "Laptops," "Desktops," and "Android," "iOS" phones, respectively. A binary tree can represent this hierarchy, where each node is a category that links to two subcategories.
+/*2. Product Hierarchy System: Binary Tree
+Actual Situation: Take into consideration an e-commerce platform that arranges items in a hierarchy for simple handling and navigation. There may be subcategories within each category, creating a tree structure. For instance, the category "Electronics" may subdivide into "Computers" and "Smartphones," each of which could further subdivide into "Laptops," "Desktops," and "Android," "iOS," and so on. This hierarchy can be represented as a binary tree, in which every node is a category connected to two subcategories.
 
-Data Structure Suitability: A binary tree is ideal for the product hierarchy system because:
+Data Structure Suitability: The product hierarchy method works well with a binary tree because
 
-It allows for hierarchical organization of categories, which mirrors the real-world categorization of products.
-Searching for a specific category or product can be efficient if the tree is balanced.
-It can represent binary decisions or categorizations at each level, simplifying the navigation through categories.
+It enables a hierarchical category structure, simulating how things are categorized in the real world.
+If the tree is balanced, searching for a certain category or product can be effective.
+
+It makes navigating between categories easier by representing binary choices or categorizations at each level.
 
 Binary Tree Code for Product Hierarchy System:*/
 
@@ -80,6 +81,6 @@ int main() {
 
     return 0;
 }
-/*A binary tree is suitable for the product hierarchy as it enables quick search, insertion, and deletion of categories.
-It also mirrors the hierarchical nature of product categorization, making it intuitive to navigate through categories and subcategories.*/
+/*Given its ability to facilitate rapid category insertion, deletion, and search, a binary tree makes sense for the product hierarchy.
+Additionally, it replicates the product classification hierarchy, which makes it easy to move between categories and subcategories.*/
 
